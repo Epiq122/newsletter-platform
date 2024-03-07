@@ -1,3 +1,9 @@
-export default function Home() {
-  return <main>Home</main>;
+import Home from '@/modules/home/home';
+
+export default function Page() {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
